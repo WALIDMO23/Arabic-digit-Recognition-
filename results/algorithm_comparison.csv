@@ -1,0 +1,12 @@
+Algorithm,Train Accuracy,Test Accuracy,Training Time (s),Model
+SVM (RBF),0.9942513368983957,0.9112299465240642,235.47543048858643,"SVC(probability=True, random_state=42)"
+Neural Network (MLP),1.0,0.8994652406417112,12.791622400283813,"MLPClassifier(hidden_layer_sizes=(100, 50), max_iter=500, random_state=42)"
+SVM (Linear),1.0,0.8903743315508021,88.50212693214417,"SVC(kernel='linear', probability=True, random_state=42)"
+Gradient Boosting,0.9906417112299465,0.8780748663101604,4132.034055709839,GradientBoostingClassifier(random_state=42)
+Extra Trees,1.0,0.8748663101604278,1.6290295124053955,"ExtraTreesClassifier(n_jobs=-1, random_state=42)"
+Logistic Regression,1.0,0.8743315508021391,1.3085472583770752,"LogisticRegression(max_iter=1000, random_state=42)"
+Random Forest,1.0,0.8732620320855615,6.87755560874939,"RandomForestClassifier(n_jobs=-1, random_state=42)"
+K-Nearest Neighbors,0.8978609625668449,0.83475935828877,0.017338275909423828,KNeighborsClassifier()
+Naive Bayes,0.7327540106951872,0.7331550802139037,0.15792274475097656,GaussianNB()
+AdaBoost,0.6723262032085562,0.6614973262032086,170.4473204612732,"AdaBoostClassifier(n_estimators=100, random_state=42)"
+Decision Tree,1.0,0.6256684491978609,21.35843515396118,DecisionTreeClassifier(random_state=42)
